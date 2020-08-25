@@ -8,10 +8,6 @@ const wishList = [
     value: 80
   },
   {
-    title: "Cuscuzeira",
-    value: 40
-  },
-  {
     title: "Micro-Ondas",
     value: 480
   },
