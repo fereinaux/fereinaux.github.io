@@ -12,11 +12,10 @@ i {
 }
 
 .not-done {
-color: rgb(197, 62, 62);
+  color: rgb(197, 62, 62);
 }
 .done {
   color: rgb(45, 211, 114);
-
 }
 
 .half-div {
@@ -26,8 +25,25 @@ color: rgb(197, 62, 62);
   background: #fff;
   padding: 20px;
   border-radius: 20px;
-  height: 95vh;
+  height: fit-content;
   margin: 10px;
+}
+
+.pic-pay-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.pic-pay-panel h4 {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.div-list {
+  height: 100%;
 }
 
 .div-bank .bank-panel {
@@ -74,7 +90,6 @@ h4 {
 
 ul {
   padding: 40px;
-  max-height: 350px;
   overflow: auto;
 }
 
@@ -107,15 +122,11 @@ and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
   .half-div {
     width: 90%;
-    height: 900px;
+    height: fit-content;
   }
   
   body { 
     flex-direction: column;
   }
 
-  
-  ul {
-    max-height: 80%;
-  }
 }
