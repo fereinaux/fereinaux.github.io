@@ -7,6 +7,10 @@ const wishList = [
     title: "Sanduicheira",
     value: 80
   },
+ {
+    title: "Churrasqueira Elétrica",
+    value: 170
+  },
   {
     title: "Micro-Ondas",
     value: 480
