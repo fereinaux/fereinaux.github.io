@@ -102,7 +102,7 @@ const wishList = [
 ]
 
 let total = 0
-let arrecadado = 0
+let arrecadado = 100
 let arrecadadoItens = arrecadado
 
 $(wishList.sort((a,b) => a.value - b.value)).each((index, item) => {
