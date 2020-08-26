@@ -1,7 +1,11 @@
 body {
   background: rgb(129, 16, 235);
-  display: flex;
   font-family:  "Montserrat", Helvetica, Arial, serif;
+}
+
+.div-panel {
+  display: flex;
+
 }
 
 i { 
@@ -16,6 +20,19 @@ i {
 }
 .done {
   color: rgb(45, 211, 114);
+}
+
+.div-title {
+  width: 96%;
+  margin-left: 10px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.div-title  h4 {
+  text-align: center;
+  margin: auto;
 }
 
 .half-div {
