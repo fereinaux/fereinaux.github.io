@@ -32,6 +32,10 @@ const wishList = [
     value: 450
   },
   {
+    title: "Airfryer",
+    value: 330
+  },
+  {
     title: "2 Jogos de Toalha",
     value: 160
   },
