@@ -1,4 +1,4 @@
-let arrecadado = 585
+let arrecadado = 1985
 
 const wishList = [
   {
