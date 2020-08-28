@@ -1,3 +1,5 @@
+let arrecadado = 535
+
 const wishList = [
   {
     title: "Espremedor de Suco",
@@ -106,7 +108,6 @@ const wishList = [
 ]
 
 let total = 0
-let arrecadado = 485
 let arrecadadoItens = arrecadado
 
 $(wishList.sort((a,b) => a.value - b.value)).each((index, item) => {
